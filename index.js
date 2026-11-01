@@ -40,9 +40,6 @@ function getAverageRate() {
 }
 const average = getAverageRate();
 
-const averageElement = document.querySelector("#average");
-averageElement.textContent = `Average hourly rate: $${average}`;
-
 function Freelancer(freelancer) {
   const freelancerElement = document.createElement("li");
 
